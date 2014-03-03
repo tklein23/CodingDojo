@@ -98,7 +98,7 @@ sub print_maze {
 push_path(0,0);
 
 while (@path) {
-   #usleep(9*1000);
+   usleep(20*1000);
    print_maze();
 
    my $p = $path[$#path];
